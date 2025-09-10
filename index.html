@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rapid progress: Good or No Good?</title>
+  <style>
+    :root{--max-width:900px;--accent:#065f46;--muted:#6b7280}
+    html,body{height:100%;margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;line-height:1.6;color:#0f172a;background:#f8fafc}
+    .container{max-width:var(--max-width);margin:40px auto;padding:28px;background:#fff;border-radius:12px;box-shadow:0 6px 24px rgba(12,18,28,.06)}
+    header {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+}
+    .brand{display:flex;flex-direction:column}
+    .site-title{font-size:18px;font-weight:700;color:var(--accent);margin:0}
+    .site-sub{font-size:12px;color:var(--muted);margin-top:2px}
+    .hero{margin-top:18px;border-radius:10px;overflow:hidden}
+    .hero img{width:100%;height:auto;display:block}
+    article{padding:18px 2px}
+    h1{font-size:32px;margin:6px 0 4px}
+    .meta{font-size:13px;color:var(--muted);margin-bottom:18px}
+    .content{font-size:17px;color:#111827}
+    .content p{margin:14px 0}
+    footer{margin-top:28px;padding-top:18px;border-top:1px solid #eef2f7;color:var(--muted);font-size:13px}
+    @media (max-width:640px){.container{margin:18px;padding:16px} h1{font-size:24px}}
+    @media print{body{background:#fff} .brand .site-sub{display:none} .container{box-shadow:none;border-radius:0}}
+  </style>
+</head>
+<body>
+  <main class="container" role="main">
+
+
+    <article id="article" aria-label="Article">
+      <header>
+        <h1 id="article-title">Rapid progress: Good or No Good?</h1>
+        <div class="meta">By <strong id="article-author">Nagi Yuuki</strong> 
+        <time id="article-date">| September 10, 2025</time></div>
+      </header>
+
+      <section class="content">
+        <p>Point your blades but I shall lay it down. The world’s going too fast. </p>
+<p>The world feels like it’s accelerating, almost exponentially, and not everyone can— or even should— try to keep up. For most of history, change happened over generations. Now, a single decade can completely reshape technology, economies, and social structures. That kind of rapid change is exciting but also exhausting, and it creates this constant pressure to be “on” all the time. </p>
+<p>Innovations, speed, efficiency, and revenue. Do you see that this doesn’t only affect the betterment of tech and services? Sure, all of that has brought us incredible technology and better services but resources— they’re getting consumed at the same rate. Alarming. I’m not only talking about material and natural resources, this includes human resources. You can throw me the Kardashev scale, talk about humanity’s march toward higher civilizations… but do you really dislike trees so much? Do you want clean air to become as scarce as clean water? </p>
+<p>Have you noticed that a lot of people are talking and experiencing burnt out? You can tell me that’s it’s because the media’s loud about it and probably that’s not a lot of people and you could be right! Still, that won’t equal me wrong. Humans have limits, and our brains weren’t built for a world that moves this fast. Some might say it’s just natural selection and that the next generation of kids will adapt. Maybe that’s true for people. But for the planet? For natural resources? No. We can’t just “adapt” our way out of that environmental degradation problem. </p>
+<p>I don’t even like the natural selection argument. It feels outdated. We’re not living in caves anymore; we’ve built a world where we can help each other out. So why don’t we? Imagine a world, where it would just slow down. Instead of 24/7 it would be 48/4. Four days in a week, each day is 48 hours. Imagine that. Humans get rest, nature gets rest, and everything gets to— breathe. </p>
+<p>Alas, how greed rules over some of us, we want to continue, adapt, improve, just never satisfied at all. But hey, that wasn’t even the true bad part, I personally think its impatience. Wanting to get a hold of that new innovation right away, thus overclocking both human and natural resources, when improvement is still truly possible even if it is slow. Would you ever think of this if you want to save your dying mother from a disease, and you’re so close to figuring it out, and it’s a race against time? Haha probably not. </p>
+<p>Even through natural selection, there will still be humans who can’t or don’t want to keep up with this pace. So what? Do you think they are losers? No, they’re humans who also deserve equal rights to be alive. Not everyone is born a golden genius child. Creativity and innovation don’t come from running at full speed all the time— they come from rest, reflection, and balance. </p>
+<p>We push boundaries, ignore warning signs, and often only change when disaster forces us to. Nobody in their right mind wants another fuckery like plague, famine, or global crisis just to make people stop. It’s tragic that historically, calamities have been humanity’s reset buttons. Ideally, we’d choose change before chaos hits. But that requires patience, empathy, and cooperation on a scale we’re… not great at yet. </p>
+<p>To be honest, after writing all this, I don’t really care anymore. Because the one who controls the world is the one who holds the most power. And probably, in the distant future, it all becomes too much—for the world itself. A calamity happens, humanity adapts, the cycle continues. Rinse, repeat. Or not! Humanity dies, world evolves, or whatever the fuck we won’t know. </p>
+<p>Maybe in another eon, “humans”— whatever these things will be— will climb a higher rung on the Kardashev scale. And these slurry, rambling words of mine? They’ll be nothing but null. </p>
+
+
+
+      </section>
+
+      <footer>
+        <div>© <span id="footer-year">2025</span> Hi uwu</div>
+      </footer>
+    </article>
+  </main>
+
+  <script>
+    const featuredImage = document.getElementById('featuredImage');
+    featuredImage.addEventListener('error', ()=>featuredImage.style.display='none');
+    featuredImage.addEventListener('load', ()=>featuredImage.style.display='block');
+    document.getElementById('footer-year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
